@@ -4,7 +4,7 @@ public class PrintWeekNumber {
 
 	public static void main(String[] args) {
 		
-		int Weekno=7;
+		int Weekno=10;
 		if(Weekno==1)
 		{
 			System.out.println("Sunday");
@@ -29,9 +29,13 @@ public class PrintWeekNumber {
 		{
 			System.out.println("Friday");
 		}
-		else
+		else if(Weekno==7)
 		{
 			System.out.println("Saturday");
+		}
+		else
+		{
+			System.out.println("Invalid number");
 		}
 	}
 
